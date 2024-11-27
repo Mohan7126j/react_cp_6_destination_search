@@ -1,0 +1,30 @@
+/* Write your CSS here */
+* {
+  max-width: 100%;
+}
+
+.bg-conatiner {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-element {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 300px;
+  background-color: #f1f5f9;
+}
+
+.destination-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.search-icon{
+  pointer-events: none;
+}
